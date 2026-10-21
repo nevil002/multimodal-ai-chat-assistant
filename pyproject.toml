@@ -1,0 +1,21 @@
+[project]
+name = "multimodal-ai-chat-assistant"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "chromadb>=1.5.9",
+    "gradio>=6.30.0",
+    "litellm>=1.106.1",
+    "markitdown>=0.1.8",
+    "mcp[cli]<=2",
+    "nltk>=3.10.3",
+    "openai>=2.54.0",
+    "pydantic>=2.14.1",
+    "pymupdf4llm==1.28.2",
+    "python-dotenv>=1.2.4",
+    "requests>=2.34.2",
+    "tenacity>=9.2.1",
+    "tqdm>=4.70.1",
+]
